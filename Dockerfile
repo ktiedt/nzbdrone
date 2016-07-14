@@ -1,5 +1,5 @@
 FROM phusion/baseimage:0.9.16
-MAINTAINER David Young <davidy@funkypenguin.co.nz>
+MAINTAINER Karl Tiedt <ktiedt@gmail.com>
 #Based on the work of needo <needo@superhero.org>
 #
 #########################################
@@ -17,7 +17,7 @@ ENV LANGUAGE        en_US.UTF-8
 CMD ["/sbin/my_init"]
 
 # Add a generic htpc user, which we'll reuse for all HTPC containers, and set UID predictable value (the meaning of 2 lives)
-RUN useradd htpc -u 4242
+RUN useradd ktiedt -u 1000
 
 #########################################
 ##  FILES, SERVICES AND CONFIGURATION  ##

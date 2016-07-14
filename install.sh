@@ -26,7 +26,7 @@ apt-get install -qy libgdiplus libmono-cil-dev nzbdrone
 #########################################
 
 # Fix permissions
-chown -R htpc /opt/NzbDrone
+chown -R ktiedt /opt/NzbDrone
 
 #########################################
 ##                 CLEANUP             ##
